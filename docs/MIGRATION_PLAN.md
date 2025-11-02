@@ -69,12 +69,12 @@ Move the existing application to AWS with minimal changes. Containerize the Glas
 ### Option 2: Front End Modernization (Backend for Frontend)
 
 **Description:**  
-Modernize the frontend while keeping the existing Java EE backend intact. Create a modern React/Vue.js frontend that communicates with the legacy backend through REST APIs.
+Modernize the frontend while keeping the existing Java EE backend intact. Create a modern React frontend that communicates with the legacy backend through REST APIs.
 
 **Approach:**
 - **Backend:** Keep existing GlassFish + EJB + JSP/Servlet architecture
 - **API Layer:** Add REST endpoints to existing servlets or create new REST controllers
-- **Frontend:** React/Vue.js SPA deployed to S3 + CloudFront
+- **Frontend:** ReactSPA deployed to S3 + CloudFront
 - **Database:** Keep existing MySQL, optionally migrate to Amazon RDS
 - **Authentication:** Implement JWT tokens or session-based auth
 - **Deployment:** Backend on EC2/ECS, Frontend on S3 + CloudFront
@@ -119,7 +119,7 @@ Complete architectural overhaul to modern, cloud-native stack with API-first des
 
 **Approach:**
 - **Backend:** Spring Boot REST API (Java 17+)
-- **Frontend:** React/Vue.js SPA (Single Page Application)
+- **Frontend:** React SPA (Single Page Application)
 - **Database:** Amazon Aurora MySQL (serverless option)
 - **API Gateway:** AWS API Gateway for REST endpoints
 - **Authentication:** AWS Cognito for user management
