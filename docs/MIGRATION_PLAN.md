@@ -2,7 +2,7 @@
 
 ## Overview
 
-Modernize and migrate the hotel reservation web application built with legacy technologies (Java EE, JSP, Servlet, EJB, MySQL) to a more modern architecture and deployment strategy. This migration demonstration highlights some common migration patterns in business today.
+Modernize and migrate the hotel reservation web application built as a monolithic application with legacy technologies (Java EE, JSP, Servlet, EJB, MySQL) to a more modern architecture and deployment strategy. This migration demonstration highlights some common migration patterns in business today.
 
 
 ---

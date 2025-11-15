@@ -86,7 +86,7 @@ SELECT * FROM room;
 ## Project Structure
 
 ```
-hotel-demo-legacy/
+hotel-monolith/
 ├── deploy.sh              # ← Build & deploy script
 ├── status.sh              # ← Status check
 ├── HotelReservation-ejb/  # ← Backend (EJB)
